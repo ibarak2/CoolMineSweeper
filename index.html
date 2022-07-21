@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mine Sweeper</title>
+</head>
+
+<body onload="initGame()">
+
+
+    <div class="title">
+        <h1>Mine Sweeper</h1>
+
+    </div>
+
+    <div class="options">
+        <span class="mines-counter">Mines left</span>
+        <span class="timer">
+            Time Passed: 0
+        </span>
+
+        <br>
+
+        <button onclick="initGame()" class="restart-btn">&#128522</button>
+
+        <br>
+
+        <label class="radio">Easy
+            <input onclick="initGame()" type="radio" checked="checked" name="radio" value="4">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="radio">Medium
+            <input onclick="initGame()" type="radio" name="radio" value="8">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="radio">Hard
+            <input onclick="initGame()" type="radio" name="radio" value="12">
+            <span class="checkmark"></span>
+        </label>
+
+        <br>
+        <br>
+
+        <span class="lives"></span>
+        <span onclick="enterHintMode()" class="hints"></span>
+
+    </div>
+
+    <div class="board"></div>
+
+    <div class="footer">
+        <p>© Barak Kaldess</p>
+    </div>
+
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
