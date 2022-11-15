@@ -4,6 +4,8 @@ First CA Sprint project - Mine Sweeper
 ## About The Project
 
 This is my first "Sprint" project at the Coding Academy Bootcamp, using some vanilla JS to build a Mine Sweeper mini-game.
+<br>
+![desktop1](https://res.cloudinary.com/ibarak/image/upload/v1668496430/finished%20projects%20previews/eomptwayyy0zrlb8s4je.jpg)
 
 
 ## Contact
